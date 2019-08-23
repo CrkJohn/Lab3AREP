@@ -15,7 +15,7 @@ public class ReadPage {
 	public static void main(String args[]) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			URL url = new URL(br.readLine());
+			URL url = new URL("https://github.com:443/CrkJohn");
 			PrintWriter writer = new PrintWriter("resultado.html");
 			URLConnection con = url.openConnection();
 			BufferedReader readUrl = new BufferedReader(new InputStreamReader(con.getInputStream()));
