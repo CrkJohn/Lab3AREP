@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoServer",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.EchoServer",
+            "projectName": "ClientService"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoClient",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.EchoClient",
+            "projectName": "ClientService"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadPage",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.ReadPage",
+            "projectName": "ClientService"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - URLReader",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.URLReader",
+            "projectName": "ClientService"
+        }
+    ]
+}
