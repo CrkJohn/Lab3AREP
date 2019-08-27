@@ -1,4 +1,4 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arem.urls;
 
 import java.io.BufferedReader;
 import java.io.IOException;

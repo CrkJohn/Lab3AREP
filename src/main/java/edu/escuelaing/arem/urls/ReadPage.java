@@ -1,4 +1,4 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arem.urls;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,8 +23,7 @@ public class ReadPage {
 			while ((inputLine = readUrl.readLine()) != null) {
                 writer.println(inputLine);
            }
-			
-			writer.close();
+		   writer.close();
 		}catch(MalformedURLException e){
 			System.out.println("URL ERRONEA");
 		}

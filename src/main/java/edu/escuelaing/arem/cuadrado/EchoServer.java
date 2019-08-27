@@ -1,4 +1,4 @@
-package edu.escuelaing.arem;
+package edu.escuelaing.arem.cuadrado;
 
 import java.net.*;
 import java.io.*;
