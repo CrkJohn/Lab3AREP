@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HttpServer451",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.servidores.HttpServer451",
+            "projectName": "ClientService"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EchoServer",
             "request": "launch",
             "mainClass": "edu.escuelaing.arem.EchoServer",

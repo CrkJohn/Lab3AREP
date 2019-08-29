@@ -35,9 +35,10 @@ public class HttpServer451 {
                         urlInputLine += (inputLine.charAt(i++));
                     }
                     System.err.println("Hola amigos " + urlInputLine);
-                    String urlDirectoryServer = System.getProperty("user.dir") + "//recursos//" + urlInputLine;
+                    String urlDirectoryServer = System.getProperty("user.dir") + "\\recursos\\" + urlInputLine;
                     System.out.println(urlDirectoryServer);
                     try {
+                        
                         BufferedReader readerFile = new BufferedReader(new InputStreamReader(new FileInputStream(urlDirectoryServer), "UTF8"));
                         out.println("HTTP/2.0 200 OK");
                         out.println("Content-Type: text/html");
@@ -54,7 +55,7 @@ public class HttpServer451 {
                     while (!urlInputLine.endsWith(".jpg") && i < inputLine.length()) {
                         urlInputLine += (inputLine.charAt(i++));
                     }
-                    BufferedImage github = ImageIO.read(new File(System.getProperty("user.dir") + "//recursos//" +urlInputLine));
+                    BufferedImage github = ImageIO.read(new File(System.getProperty("user.dir") + "\\recursos\\" +urlInputLine));
                     out.println("HTTP/2.0 200 OK");
                     out.write("Content-Type: image/webp,*/*");
                     out.println("\r\n");
