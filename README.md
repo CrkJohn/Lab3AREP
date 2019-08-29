@@ -3,8 +3,6 @@
 
 ### Librería 
 
-Programa desarrollado en Java que haya la media y la desviación estandar de una lista de números.
-
 ### Prerequisitos
 
 * Java 1.8
