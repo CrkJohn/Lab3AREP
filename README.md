@@ -1,8 +1,6 @@
 # Transformación Digital y a Arquitectura Empresarial.
 ## Laboratorio 
 
-### Librería 
-
 ### Prerequisitos
 
 * Java 1.8
@@ -15,15 +13,6 @@ arep@arep:~$ git clone https://github.com/CrkJohn/Lab3AREP.git
 arep@arep:~$ cd Lab3AREP 
 arep@arep:~$ mvn package
 ```
-### Ejecutar test de unidad
-```console
-arep@arep:~$ mvn test
-```
-### Generar documentación
-```console
-arep@arep:~$ mvn javadoc:jar
-```
-
 
 ### Licence 
 
